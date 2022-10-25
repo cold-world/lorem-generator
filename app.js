@@ -20,7 +20,7 @@ form.addEventListener('submit', (e) => {
     let value = parseInt(amount.value);
 
     if(isNaN(value) || value < 1 || value > 9) {
-        loremText.innerHTML = `<p class="result">${text[randomText()]}</p><br><hr>`;
+        loremText.innerHTML = `<p class="result">${text[randomText()]}</p><br><hr><strong>if value is < 1 or > 9 there will be a one random paragraph`;
     }
 
     else {
